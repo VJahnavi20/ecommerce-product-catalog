@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>E-Commerce Product Catalog</h1>
+
+    <div class="filters">
+
+        <select id="brandFilter">
+            <option value="All">All Brands</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Apple">Apple</option>
+            <option value="Xiaomi">Xiaomi</option>
+        </select>
+
+        <select id="ratingFilter">
+            <option value="0">All Ratings</option>
+            <option value="4">4+ Rating</option>
+            <option value="4.5">4.5+ Rating</option>
+        </select>
+
+        <select id="priceFilter">
+            <option value="All">All Prices</option>
+            <option value="20000">Under ₹20,000</option>
+            <option value="50000">₹20,000 - ₹50,000</option>
+            <option value="50001">Above ₹50,000</option>
+        </select>
+
+    </div>
+
+    <div id="products"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
